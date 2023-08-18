@@ -1,3 +1,4 @@
 {
-    "VIDEO_TIME": "videoplayer-current-time"
+    "VIDEO_TIME": "videoplayer-current-time",
+    "FEADBACK_FORM": "feedback-form-state"
 }
