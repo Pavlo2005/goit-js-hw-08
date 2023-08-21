@@ -1,5 +1,6 @@
 import common from '../../common.json';
-import { element, savedText } from '../03-feedback';
+import { element } from '../03-feedback';
+import { savedText } from '../03-feedback';
 
 function submitText(evt) {
     evt.preventDefault();
