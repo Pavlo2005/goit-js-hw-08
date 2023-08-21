@@ -23,4 +23,4 @@ input.addEventListener('input', throttle(checkText, 500));
 
 input.addEventListener('submit', submitText);
 
-export { element };
+export { element, savedText };
