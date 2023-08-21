@@ -1,6 +1,5 @@
 import common from '../../common.json';
 import { element } from '../03-feedback';
-import { savedText } from '../03-feedback';
 
 function submitText(evt) {
     evt.preventDefault();
@@ -11,8 +10,6 @@ function submitText(evt) {
 
         element.email.value = '';
         element.message.value = '';
-
-        savedText = element;
 
         localStorage.setItem(common.FEADBACK_FORM, JSON.stringify({
             email: '',
