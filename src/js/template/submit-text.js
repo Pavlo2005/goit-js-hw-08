@@ -6,7 +6,12 @@ function submitText(evt) {
 
     if (element.email.value && element.message.value) {
 
-        console.log(`email: ${element.email.value}, message: ${element.message.value}`);
+        const result = {
+            email: element.email.value,
+            message: element.message.value
+        }
+
+        console.log(result);
 
         element.email.value = '';
         element.message.value = '';
